@@ -1,0 +1,8 @@
+name: reusable workflow
+on: workflow_call
+jobs: 
+  deploy:
+    runs-on: ubunut-latest
+    steps:
+      - name: Output info
+        run: echo "deploy & upload" 
